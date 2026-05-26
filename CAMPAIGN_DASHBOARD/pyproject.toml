@@ -1,0 +1,13 @@
+[project]
+name = "campaign_dashboard"
+requires-python = "~=3.11.0"
+version = "1.0.0"
+description = "Campaign Effectiveness Dashboard"
+dependencies = [
+    "streamlit[snowflake]>=1.48.0",
+    "pandas",
+    "plotly"
+]
+
+[tool.uv]
+constraint-dependencies = ["numba>=0.56.0"]
