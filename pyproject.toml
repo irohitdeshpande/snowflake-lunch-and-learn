@@ -1,0 +1,6 @@
+[project]
+name = "campaign_dashboard"
+version = "1.0.0"
+description = "Campaign Effectiveness Dashboard"
+requires-python = ">=3.11"
+dependencies = []
